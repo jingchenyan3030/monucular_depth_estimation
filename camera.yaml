@@ -1,0 +1,15 @@
+# iPhone camera intrinsics
+# fx, fy: focal lengths in pixels (vary by model & zoom)
+# cx, cy: principal point (usually near image center)
+# These values are for iPhone 14 Pro main camera at 1280x720
+
+fx: 1400.0   # horizontal focal length (pixels)
+fy: 1400.0   # vertical focal length (pixels)
+cx: 640.0    # principal point x
+cy: 360.0    # principal point y
+
+# Real-world person height in meters (adjust as needed)
+person_height_m: 1.70
+
+# Temporal smoothing factor (0=no smoothing, 0.9=very smooth)
+ema_alpha: 0.15

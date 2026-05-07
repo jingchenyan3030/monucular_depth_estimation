@@ -1,0 +1,15 @@
+*.pth
+checkpoints/
+
+# model weights / checkpoints
+*.pth
+*.pt
+*.ckpt
+*.onnx
+checkpoints/
+Depth-Anything-V2/checkpoints/
+
+# cache
+__pycache__/
+*.pyc
+.DS_Store
